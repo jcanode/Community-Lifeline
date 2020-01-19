@@ -1,37 +1,28 @@
-Description
----
+# Community Lifeline
 
-Application Candidate Tracker dynamically assigns compatibility scores to adoption candidates; generates tables for users and applicants; imports and exports csv; and automates vetting process for pet adoption.
 
-Reason
-----
+Since the beginning of time people have needed help, and today, people need help just as much. Life throws unexpected circumstances at individuals. So, with the use of technology it is our goal to create opportunities for community support in times of need. Community Lifeline fulfills this goal by providing the platform to request help from others nearby and to answer the call for help by others nearby.
 
-Manual application processes are lengthy and subject to time delays. The ability to automate the background process allows NPO volunteers and directors to devote more time to animal rescue without sacrificing on application standards. Furthermore, the user interface allows administrators and NPO users to easily access, download, and import data regarding applicant scores and home situations. Overall, Application Candidate Tracker optimizes the application process: thereby, increasing the impact of Saving One Life.
+## Features
+* Location based
+* Request help and respond to help requests
+* Promotes community aid
 
-Installation
----
+## Built With
 
-Install mongoDB from https://www.mongodb.com/what-is-mongodb.
+* [Xamarin](https://dotnet.microsoft.com/apps/xamarin) - Mobile App Cross-platform
+* [Flask](https://flask.palletsprojects.com/en/1.1.x) - Backend API
+* [mongoDB](https://www.mongodb.com/) - Cloud Database
 
-Clone GitHub repo.
+## Authors
 
-Build and run docker file.
+* **Joe Samyn** - *Xamarin UI implementation* - [View Profile](https://github.com/jsamyn)
+* **Justin Canode** - *backend API implementation* - [View Profile](https://github.com/jcanode)
+* **James Fritz** - *Xamarin UI implementation* - [View Profile](https://github.com/James-Fritz)
+* **Jared Wermager** - *App flow and documentation* - [View Profile](https://github.com/jarheadwerm)
 
-Alternatively run start.bat/start.sh
+## Acknowledgments
 
-Usage
-----
-
-Application Candidate Tracker creates data tables and csv files of applicant information for use in application processing. It processes applicant forms and returns scores alongside the entered information: allowing directors and volunteers at Saving One Life to efficiently and comprehensively judge applications. 
-
-Requirements
-----
-- MongoDB
-- Docker
-
-Credits
-----
-
-Creators: Justin Canode, Stone Sommers, Emilee Spence
-
-Libraries: Flask, Pandas, io, csv, werkzeug.security
+* Major League Hacking - [Website](https://mlh.io/)
+* University of Arizona - [Website](https://www.arizona.edu/)
+* To all of our teachers and mentors - Thank you!
